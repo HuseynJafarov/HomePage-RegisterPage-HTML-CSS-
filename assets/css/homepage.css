@@ -1,0 +1,98 @@
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: Robo;
+  src: url(../Font/Roboto-Light.ttf);
+}
+header .logo img {
+  margin-top: 0px;
+  margin-left: 100px;
+  width: 100px;
+  height: 50px;
+}
+header .navbar ul {
+  justify-content: right;
+  display: flex;
+  list-style: none;
+}
+header .navbar li {
+  margin-top: -60px;
+  padding: 0px 50px 50px 10px;
+  font-size: 20px;
+}
+header .navbar li a {
+  color: black;
+  text-decoration: none;
+}
+header .line1 {
+  margin-top: -40px;
+  width: 100%;
+  height: 1px;
+  box-shadow: 1px 10px 3px;
+}
+main .text {
+  font-size: 20px;
+  text-align: center;
+  font-family: Robo;
+}
+main .text span {
+  color: rgb(203, 203, 17);
+}
+main .text h1 {
+  margin-top: 10px;
+}
+main .cards {
+    margin-left: 110px;
+  display: flex;
+}
+main .card-italy {
+  margin-left: 100px;
+}
+main .card-italy .information{
+    width: 296px;
+    margin-top: -5px;
+    height: 150px   ;
+    border: solid 2px grey;
+}
+main .card-italy .icon {
+    margin-left: 20px;
+  display: flex;
+}
+main .card-italy .icon span {
+  color: black;
+  margin-left: 5px;
+}
+main .card-italy h3 {
+    margin-left: 20px;
+  margin-top: 5px;
+}
+main .card-italy .image1 img {
+  width: 300px;
+  height: 300px;
+}
+main .card-italy .icon .star {
+  color: rgb(240, 240, 6);
+}
+main .card-italy .span {
+    margin-left: 20px;
+  display: flex;
+}
+main .card-italy .span .price1{
+    color:green;
+}
+main .card-italy .line2{
+    width: 295px;
+    height: 1px;
+    box-shadow: 1px 10px 3px;
+}
+main .card-italy .info {
+    margin-left: 20px;
+    color: gray;
+    display: flex;
+    margin-top: 20px;
+}
+main .card-italy .info .place{
+    margin-left: 20px;
+}

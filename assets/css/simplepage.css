@@ -1,0 +1,56 @@
+body{
+    background-color: aqua;
+}
+header .menu ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+header .menu li{
+    padding: 2px 50px 20px 50px;
+    text-align: center;
+    background-color: yellow;
+    border: solid 4px blue;
+    font-size: 30px;
+    margin-left: 20px;
+}
+main{
+    
+    text-align: center;
+    margin-top: 70px;
+    
+}
+main .one{
+    width: 34%;
+    height: 550px;
+    background-color: rgb(237, 110, 41);
+}
+#main{
+    display: flex;
+    
+}
+#main .one h1{
+    color: rgb(5, 74, 105);
+}
+main .two{
+    width: 34%;
+    height: 550px;
+    background-color: blue;
+}
+#main .two h1{
+    color: rgb(230, 201, 201);
+}
+main .three{
+    width: 34%;
+    height: 550px;
+    background-color: blueviolet;
+}
+#main .three h1{
+    color: aqua;
+}
+footer .info{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(154, 17, 17);
+}

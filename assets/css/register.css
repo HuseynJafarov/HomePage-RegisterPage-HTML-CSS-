@@ -1,0 +1,89 @@
+body {
+  background-image: url("/assets/images/1.jpg");
+}
+header {
+  top: 0;
+  margin-left: -8px;
+  height: 60px;
+  background-color: rgb(61, 61, 61);
+  position: fixed;
+  width: 100%;
+}
+header .head {
+  display: flex;
+}
+header .head h2 {
+  color: white;
+  float: left;
+  margin-left: 15px;
+  font-family: "Permanent Marker", cursive;
+}
+header .head ul {
+  margin-top: 25px;
+
+  display: flex;
+  list-style: none;
+}
+header .head li {
+  margin-right: 20px;
+}
+header .head a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+    
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.text {
+  background-color: white;
+  height: 570px;
+  width: 370px;
+  margin-top: 96px;
+  
+}
+.text h2{
+    margin-left: 50px;
+    font-size: 50px;
+    color: rgb(78, 78, 78);
+}
+.text input{
+margin-left: 50px;
+width: 270px;
+padding-top: 10px;
+margin-top: 22px;
+border-left: none;
+border-right: none;
+border-top: none;
+outline: none;
+
+}
+.text button{
+    margin-left: 50px;
+    margin-top: 22px;
+    border: none;
+    width: 80px;
+    height: 28px;
+    padding: 7px;
+    background-color: rgb(244, 106, 14);
+    border-radius: 14px 14px 14px 14px;
+    cursor: pointer;  
+}
+.text span{
+    margin-left: 50px;
+}
+.login .img img {
+  height: 570px;
+  width: 370px;
+  padding-top: 100px;
+}
+.text a{
+  text-decoration: none;
+}
